@@ -1,0 +1,16 @@
+$TTL 86400
+$ORIGIN ku.edu.np
+
+@ IN SOA ns1.ku.edu.np. admin.ku.edu.np. (
+	2023050401 ; Serial
+	3600	; Refresh
+	1800	; Retry
+	604800	; Expire
+	86400)	; Minimum TTL
+
+@	IN	NS	ns1.ku.edu.np.
+	IN	NS	ns2.ku.edu.np.
+ns1	IN	A	127.0.0.1
+ns2	IN	A	127.0.0.2
+www	IN	A	101.251.6.15
+@	IN	A	101.251.6.15
